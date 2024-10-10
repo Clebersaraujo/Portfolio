@@ -1,6 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0; /* posiciona o texto para o canto*/
+    padding: 0; /* posiciona o texto para o canto*/
+    box-sizing: border-box;
+}
+
 ul li {
     list-style: square;
 }
 a {
     text-decoration: none;
+}
+
+body {
+    background: url("../img/bg-desktop.jpg") no-repeat top center/cover; /* cor de fundo, mas comando para esticar a cor de fundo*/
+    height: 100; 
+}
+
+/* p {
+    text-decoration: nome; /* para mudar a cor do texto
+    color: white;
+}
+
+footer {
+    text-decoration: nome; /* para mudar a cor do texto
+    color: white;
+} */
+
+body * {
+    color: white; 
+    font-family: Oswald;
+} 
+
+a {
+    text-decoration: nome; /* para mudar a cor do texto*/
+    color: white;
 }
